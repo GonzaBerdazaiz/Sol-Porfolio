@@ -1,0 +1,138 @@
+.Burgees-content{
+  background-color: #5E5343 !important;
+  margin-top:50px;
+  height: 100vh;
+  position: relative;
+}
+
+.contenedor-fijo {
+  width: 47.5%;
+  height: 100%;
+  margin: auto;
+  overflow: hidden; 
+}
+
+.Burgees-image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 1s ease;
+}
+.Burgees-image img{
+  width:100%; 
+  height:700px; 
+}
+
+.Burgees-text{
+  position: absolute;
+  z-index: 99;
+  top: 20%;
+  left: 65%;
+  transform: translate(-10%, -50%);
+  width:30%;
+}
+
+
+
+.grid-FAQ-columns{
+  display: Grid;
+  gap: 1rem;
+  grid-template-columns:25% 1fr;
+}
+
+.qa-item {
+  color:white;
+}
+  
+.question {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.question p{
+  color:white;
+  margin: 0;
+}
+  
+.answer {
+  display: block;
+}
+
+.question-section{
+  background-color: #5E5343;
+  color: white;
+  margin:0;
+  padding:0;
+}
+.question p{
+  margin-bottom:0px;
+}
+
+.plus-icon::before {
+  content: "+";
+  font-size: 25px;
+}
+
+.minus-icon::before {
+  content: "-";
+  font-size: 25px;
+}
+
+
+@media screen and (max-width: 1100px) {
+  .Burgees-content{
+    background-color: #5E5343 !important;
+    margin-top:50px;
+    height: 50vh;
+    position: relative;
+  }  
+  .contenedor-fijo {
+    width: 70%;
+    height: 100%;
+    overflow: hidden; 
+  }
+  .Burgees-image img{
+    width: 100%;
+    height: 100%;
+    transition: transform 1s ease;
+  }
+  .Burgees-text{
+    position: absolute;
+    z-index: 99;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    width:40%;
+  }
+}
+@media screen and (max-width: 890px) {
+  .Burgees-content{
+    background-color: #5E5343 !important;
+    margin-top:50px;
+    height: 50vh;
+    position: relative;
+  }  
+  .contenedor-fijo {
+    width: 70%;
+    height: 100%;
+    overflow: hidden; 
+  }
+  .Burgees-image img{
+    width: 100%;
+    height: 100%;
+    transition: transform 1s ease;
+  }
+  .Burgees-text{
+    position: absolute;
+    z-index: 99;
+    top: 50%;
+    left: 65%;
+    transform: translate(-10%, -50%);
+    width:40%;
+  }
+  .grid-FAQ-columns{
+    display: Grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+}

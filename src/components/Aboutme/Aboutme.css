@@ -1,0 +1,17 @@
+.about-text-image{
+    display:flex;
+}
+.about-text-image img{
+    width:280px;
+    height:400px;
+}
+
+@media screen and (max-width: 890px) {
+    .about-text-image{
+        display:flex;
+        flex-direction: column;
+    }
+    .about-text-image img{
+        margin:auto;
+    }
+  }

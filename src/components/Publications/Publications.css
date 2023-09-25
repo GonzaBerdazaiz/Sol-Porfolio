@@ -1,0 +1,26 @@
+
+.public-cont{
+    height: fit-content;
+}
+
+.grid-publication-columns{
+    display: Grid;
+    grid-template-columns:35% 1fr;
+    gap:1rem;
+}
+
+.publicationsCard-cont{
+    margin-bottom:120px;
+}
+
+@media screen and (max-width: 980px) {
+    .grid-publication-columns{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        grid-template-columns: 1fr; 
+    }
+    .publications-cont h2{
+        padding-right: 50px;
+    }
+}

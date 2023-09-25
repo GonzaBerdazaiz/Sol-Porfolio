@@ -1,0 +1,27 @@
+.header-cont{
+    background-color: #253439;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 50px;
+}
+
+.header-cont h1{
+    letter-spacing: 10px;
+}
+
+@media screen and (max-width: 890px) {
+    .header-cont{
+        background-color: #253439;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        min-height: 100vh;
+        padding: 40px;
+    }
+  }
