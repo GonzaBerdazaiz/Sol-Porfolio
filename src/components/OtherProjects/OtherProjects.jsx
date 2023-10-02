@@ -16,8 +16,10 @@ const Publications = () => {
                     <p data-aos="zoom-in" data-aos-duration="1000" style={{padding:'80px 0', fontSize:'16px'}}>Some other samples of my work include the translation of poetry and the publication of my own writings in magazines.</p>
                 </div>
                 <div className='others-images'>
-                    <img src='https://drive.google.com/uc?export=download&id=1ZgXNO9U6IV2YvMvrjM_TwHjEdkNv580q' alt='onthecusp'/>
-                    <span style={{fontFamily: 'Hatton Light', paddingBottom:'50px'}}>Translation of one word sonnets by Seymour Mayne, published by FaHCE in 2013.</span>
+                    <a href="https://memoria.fahce.unlp.edu.ar/libros/pm.301/pm.301.pdf" target="_blank" rel="noopener noreferrer">
+                        <img src='https://drive.google.com/uc?export=download&id=1ZgXNO9U6IV2YvMvrjM_TwHjEdkNv580q' alt='onthecusp'/>
+                        <span style={{fontFamily: 'Hatton Light', paddingBottom:'50px'}}>Translation of one word sonnets by Seymour Mayne, published by FaHCE in 2013.</span>
+                    </a >
                 </div>
                 <div className='others-images'>
                     <img src='https://drive.google.com/uc?export=download&id=1Rk_UcqBTbADUhV3E7NhZFKE9mMy7DvCW'alt='cucaracha'/>
