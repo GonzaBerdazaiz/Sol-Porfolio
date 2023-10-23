@@ -15,7 +15,7 @@ const WhyTraslator = () => {
     
     return (
         <div className="content why-content">
-            <div className="hero grid-two-columns">
+            <div className="hero grid-two-columns" id='WhyTraslator'>
                 <div className="hero-image">
                     <img src='https://drive.google.com/uc?export=download&id=1xDaStooit5DsfREROcaMca0iJFk-sRXz' width='100%' height='410px' alt='Why' />
                 </div>

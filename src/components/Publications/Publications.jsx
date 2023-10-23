@@ -12,7 +12,7 @@ const Publications = () => {
 
   return (
     <div className="content public-cont">
-      <div className="grid-publication-columns">
+      <div className="grid-publication-columns" id='Publications'>
         <div className='publications-cont'>
           <h2 data-aos="fade-left" data-aos-duration="1000">Publications</h2>
           <p style={{fontStyle: 'italic', width:'70%', padding:'20px'}}>“Maria is amazing to work with as a translator, and I cannot recommend her enough!”</p>

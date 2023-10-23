@@ -4,6 +4,7 @@
 }
 
 .grid-publication-columns{
+    padding-top:100px; 
     display: Grid;
     grid-template-columns:35% 1fr;
     gap:1rem;

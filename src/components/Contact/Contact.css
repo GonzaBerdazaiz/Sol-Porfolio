@@ -22,6 +22,7 @@
 }
 
 .grid-contact-columns{
+    padding-top: 100px;
     display: Grid;
     gap: 1rem;
     grid-template-columns:30% 1fr

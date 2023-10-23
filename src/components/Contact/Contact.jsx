@@ -13,8 +13,8 @@ const Contact = () => {
     }, []);
 
     return (
-        <div className="content">
-            <div className="grid-contact-columns">
+        <div className="content" >
+            <div className="grid-contact-columns" id="contact">
                 <div>
                     <h2 style={{color: '#5E5343'}}>Contact me</h2>
                     <div className='Icons'>

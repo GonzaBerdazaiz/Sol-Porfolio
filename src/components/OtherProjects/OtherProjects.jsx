@@ -18,8 +18,8 @@ const Publications = () => {
                 <div className='others-images'>
                     <a href="https://memoria.fahce.unlp.edu.ar/libros/pm.301/pm.301.pdf" target="_blank" rel="noopener noreferrer">
                         <img src='https://drive.google.com/uc?export=download&id=1ZgXNO9U6IV2YvMvrjM_TwHjEdkNv580q' alt='onthecusp'/>
-                        <span style={{fontFamily: 'Hatton Light', paddingBottom:'50px'}}>Translation of one word sonnets by Seymour Mayne, published by FaHCE in 2013.</span>
                     </a >
+                    <span style={{fontFamily: 'Hatton Light', paddingBottom:'50px'}}>Translation of one word sonnets by Seymour Mayne, published by FaHCE in 2013.</span>
                 </div>
                 <div className='others-images'>
                     <img src='https://drive.google.com/uc?export=download&id=1Rk_UcqBTbADUhV3E7NhZFKE9mMy7DvCW'alt='cucaracha'/>

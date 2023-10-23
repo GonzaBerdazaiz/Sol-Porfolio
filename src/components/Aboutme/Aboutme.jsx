@@ -11,7 +11,7 @@ const About = () => {
 
     return (
         <div className="content">
-            <div className="grid-two-columns">
+            <div className="grid-two-columns about-content" id='About'>
                 <div className="about-image">
                     <img src='https://drive.google.com/uc?export=download&id=1A92uboCwHK8xLRnviCemOWDOqnra-tFw' width='100%' height='100%' alt='Libro1' />
                 </div>

@@ -1,0 +1,84 @@
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    align-items:center;
+    justify-content: flex-end;
+    width: 98.8%;
+    height: 70px;
+    background-color: #253439;
+    z-index:1;
+    opacity: 0; /* Inicialmente, la barra de navegación estará oculta */
+    transition: opacity 1s ease;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar-container.visible{
+    opacity: 1;
+}
+
+
+.Link-navbar{
+    padding: 0 20px;
+    text-decoration: none;
+    font-family: 'Garbata Trial Light';
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+    color: #5E5343;
+    cursor: pointer;
+    transition: 0.8s ease;
+}
+.Link-navbar:hover{
+    color: white;
+    transition: 0.8s ease;
+}
+
+
+.bars{
+    color:#5e5343;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.navbar-menu{
+    display: none;
+}
+
+.dropdown-menu{
+    position: absolute;
+    display: none;
+    right: 0;
+    top:60px;
+    width: 400px;
+    background-color: #253439;
+    border-radius: 10px;
+}
+.dropdown-menu li:hover{
+    color: white;
+}
+
+.dropdown-menu li{
+    display:flex;
+    list-style: none;
+    font-family: 'Garbata Trial Light';
+    padding: 15px;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0;
+    color: #5E5343;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 750px) { 
+    .navbar-items {
+        display: none;
+    }
+    .navbar-menu{
+        display: block;
+        padding: 50px;
+    }
+    .dropdown-menu.open {
+        display: block;
+    }
+  }
