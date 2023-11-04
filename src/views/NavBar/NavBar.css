@@ -4,7 +4,7 @@
     position: fixed;
     align-items:center;
     justify-content: flex-end;
-    width: 98.8%;
+    width: 98.75%;
     height: 70px;
     background-color: #253439;
     z-index:1;
@@ -16,6 +16,9 @@
     opacity: 1;
 }
 
+.navbar-items{
+    margin-right: 40px;
+}
 
 .Link-navbar{
     padding: 0 20px;
@@ -23,7 +26,6 @@
     font-family: 'Garbata Trial Light';
     font-size: 18px;
     font-weight: 500;
-    margin: 0;
     color: #5E5343;
     cursor: pointer;
     transition: 0.8s ease;

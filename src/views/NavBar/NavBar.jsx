@@ -28,14 +28,14 @@ const Navbar = () => {
     <div>
       <div className="navbar-container">
         <div className="navbar-items">
-          <Link
+          {/* <Link
             to="/samples"
             smooth={true}
             duration={1000}
             className="Link-navbar"
           >
             Traslation samples
-          </Link>
+          </Link> */}
           <Link
             to="WhyTraslator"
             smooth={true}
