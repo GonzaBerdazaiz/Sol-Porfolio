@@ -23,7 +23,7 @@ const BurgeesAndFAQ = () => {
         <div className="Burgees-content">
             <div className="contenedor-fijo">
                 <div className="Burgees-image" data-aos="zoom-in" data-aos-duration="3000">
-                    <img src='src\assets\Libro.jpeg' alt='Libro' />
+                    <img src='/assets/Libro.jpeg' alt='Libro' />
                 </div>
             </div>
             <div className='Burgees-text'>

@@ -18,10 +18,10 @@ const Traslator = () => {
           <p>At the same time, I am capable of recognizing the author’s tone and voice so that the feelings and emotions of the source text will be transmitted in the translated text.</p>
         </div>
         <div className='traslator-image'>
-          <img src='src\assets\Libro1.jpeg' alt='Libro1' id='libro1'/>
+          <img src='/assets/Libro1.jpeg' alt='Libro1' id='libro1'/>
         </div>
         <div className='traslator-image'>
-          <img src='src\assets\Libro2.jpeg' alt='Libro2' id='libro2'/>
+          <img src='/assets/Libro2.jpeg' alt='Libro2' id='libro2'/>
         </div>
       </div>
     </div>

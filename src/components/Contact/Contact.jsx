@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Email from '../../assets/Email.png'
-import Linkedin from '../../assets/Linkedin.png'
-import Proz from '../../assets/Proz.png'
+import Email from '/assets/Email.png'
+import Linkedin from '/assets/Linkedin.png'
+import Proz from '/assets/Proz.png'
 import './Contact.css'
 
 const Contact = () => {

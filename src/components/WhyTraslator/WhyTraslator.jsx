@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
 import AOS from "aos";
 import "aos/dist/aos.css";
-import UNLP from '../../assets/UNLP.png'
-import UEA from '../../assets/UEA.png'
-import FIILE from '../../assets/FIILE.png'
-import UPC from '../../assets/UPC.png'
+import UNLP from '/assets/UNLP.png'
+import UEA from '/assets/UEA.png'
+import FIILE from '/assets/FIILE.png'
+import UPC from '/assets/UPC.png'
 import './WhyTraslator.css'
 
 const WhyTraslator = () => {
@@ -17,7 +17,7 @@ const WhyTraslator = () => {
         <div className="content why-content">
             <div className="hero grid-two-columns" id='WhyTraslator'>
                 <div className="hero-image">
-                    <img src='src\assets\WHY.jpg' width='100%' height='410px' alt='WHY' />
+                    <img src='/assets/WHY.jpg' width='100%' height='410px' alt='WHY' />
                 </div>
                 <div>
                     <h2 data-aos="fade-right" data-aos-duration="1000">Why a professional translator?</h2>

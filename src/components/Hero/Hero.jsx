@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import pccoffe from '../../assets/pccoffe.jpg'
+import pccoffe from '/assets/pccoffe.jpg'
 import AOS from "aos";
 import "aos/dist/aos.css";
 import './Hero.css'
