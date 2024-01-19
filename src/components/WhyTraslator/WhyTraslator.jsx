@@ -17,7 +17,7 @@ const WhyTraslator = () => {
         <div className="content why-content">
             <div className="hero grid-two-columns" id='WhyTraslator'>
                 <div className="hero-image">
-                    <img src='src\assets\WHY.jpg' width='100%' height='410px' alt='Why' />
+                    <img src='src\assets\WHY.jpg' width='100%' height='410px' alt='WHY' />
                 </div>
                 <div>
                     <h2 data-aos="fade-right" data-aos-duration="1000">Why a professional translator?</h2>
